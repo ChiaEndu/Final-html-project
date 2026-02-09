@@ -11,12 +11,10 @@ body {
 }
 
 header {
-  /*background: #fff;*/
   padding: 20px 40px;
   display: flex;
   align-items: center;
   justify-content: space-between;
- /* border-bottom: 1px solid #E5E7EB;*/
 }
 
 header h1 {
@@ -159,16 +157,6 @@ article > img {
   object-fit: contain;
   margin: 10px 0;
 }
-
-/*article ul {
-  display: flex;
-  justify-content: space-between;
-  list-style: none;
-  font-size: 13px;
-  color: #6B7280;
-  margin-bottom: 16px;
-}*/
-
 
 article footer {
   display: flex;
