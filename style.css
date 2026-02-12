@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+/* ================= BASE ================= */
+
 body {
   font-family: system-ui, sans-serif;
   background: #f6f7fb;
@@ -50,81 +52,7 @@ main {
   padding: 0 20px;
 }
 
-/* ===== HERO SECTION ===== */
-
-main > section:first-of-type {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-  margin-bottom: 40px;
-}
-
-main > section:first-of-type article {
-  position: relative;
-  padding: 30px;
-  border-radius: 16px;
-  color: #fff;
-  overflow: hidden;
-}
-
-main > section:first-of-type article:first-child {
-  background: linear-gradient(135deg, #3563e9, #1a3fd3);
-}
-
-main > section:first-of-type article:last-child {
-  background: linear-gradient(135deg, #54a6ff, #3563e9);
-}
-
-main > section:first-of-type h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
-main > section:first-of-type p {
-  font-size: 14px;
-  max-width: 260px;
-  margin-bottom: 20px;
-  color: #f6f7fb;
-}
-
-main > section:first-of-type button {
-  background-color: #3563e9;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 10px;
-  font-weight: 600;
-  cursor: pointer;
-}
-
-main > section:first-of-type img {
-  position: absolute;
-  right: 20px;
-  bottom: 10px;
-  width: 220px;
-}
-
-/* ===== SECTION HEADERS ===== */
-
-section header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 40px 0 20px;
-}
-
-section header h3 {
-  font-size: 20px;
-  font-weight: 700;
-}
-
-section header a {
-  color: #3563e9;
-  font-size: 14px;
-  text-decoration: none;
-}
-
-/* ===== GRID SECTION ===== */
+/* ================= GENERIC LAYOUT (LESS SPECIFIC FIRST) ================= */
 
 section section {
   display: grid;
@@ -132,8 +60,6 @@ section section {
   gap: 20px;
   margin-top: 15px;
 }
-
-/* ===== ARTICLE CARD ===== */
 
 article {
   background: #fff;
@@ -191,7 +117,7 @@ article footer button:hover {
   opacity: 0.9;
 }
 
-/* ===== MAIN BUTTON ===== */
+/* ================= MAIN BUTTON ================= */
 
 main > button {
   display: block;
@@ -206,13 +132,86 @@ main > button {
   cursor: pointer;
 }
 
-/* ===== FOOTER ===== */
+/* ================= HERO SECTION (MORE SPECIFIC AFTER GENERIC) ================= */
+
+main > section:first-of-type {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+main > section:first-of-type article {
+  position: relative;
+  padding: 30px;
+  border-radius: 16px;
+  color: #fff;
+  overflow: hidden;
+}
+
+main > section:first-of-type article:first-child {
+  background: linear-gradient(135deg, #3563e9, #1a3fd3);
+}
+
+main > section:first-of-type article:last-child {
+  background: linear-gradient(135deg, #54a6ff, #3563e9);
+}
+
+main > section:first-of-type h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+main > section:first-of-type p {
+  font-size: 14px;
+  max-width: 260px;
+  margin-bottom: 20px;
+  color: #f6f7fb;
+}
+
+main > section:first-of-type button {
+  background-color: #3563e9;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+main > section:first-of-type img {
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+  width: 220px;
+}
+
+/* ================= SECTION HEADER ================= */
+
+section header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 0 20px;
+}
+
+section header h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+section header a {
+  color: #3563e9;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+/* ================= FOOTER (LESS SPECIFIC BEFORE article footer) ================= */
 
 footer {
   background: #fff;
   padding: 50px 40px 20px;
   border-top: 1px solid #e5e7eb;
-
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
@@ -245,7 +244,7 @@ footer > p {
   color: #6b7280;
 }
 
-/* ===== RESPONSIVE ===== */
+/* ================= RESPONSIVE ================= */
 
 @media (max-width: 900px) {
   main > section:first-of-type {
