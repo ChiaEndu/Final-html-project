@@ -1,4 +1,4 @@
-# Figma Car Rent 
+# Figma Car Rent
 
 Preview
 
@@ -6,7 +6,7 @@ Preview
 
 ## About
 
-Figma Car Rent page  is a responsive frontend project built from a Figma design.
+Figma Car Rent page is a responsive frontend project built from a Figma design.
 The goal of this project is to accurately replicate the provided UI design while maintaining clean code structure and responsiveness.
 
 This project demonstrates:
@@ -48,7 +48,6 @@ Clone this repository using your terminal or command-line:
 
 [https://github.com/ChiaEndu/Final-HTML-project]
 
-
 Change to the project directory:
 
 cd Final-HTML-project
@@ -68,7 +67,6 @@ Open the project folder
 Open index.html in your browser
 
 Or use Live Server if you are using VS Code.
-
 
 This project was tested for
 
