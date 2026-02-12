@@ -141,20 +141,6 @@ article footer p {
   color: #111827;
 }
 
-article footer button {
-  background: #3563e9;
-  color: #fff;
-  border: none;
-  padding: 10px 16px;
-  border-radius: 10px;
-  font-weight: 600;
-  cursor: pointer;
-}
-
-article footer button:hover {
-  opacity: 0.9;
-}
-
 /* ================= MAIN BUTTON (LESS SPECIFIC THAN HERO BUTTON) ================= */
 
 main > button {
@@ -168,6 +154,20 @@ main > button {
   font-size: 15px;
   font-weight: 600;
   cursor: pointer;
+}
+
+article footer button {
+  background: #3563e9;
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+article footer button:hover {
+  opacity: 0.9;
 }
 
 /* ================= NAV IMAGE (MORE SPECIFIC THAN article > img) ================= */
