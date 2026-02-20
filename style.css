@@ -10,11 +10,15 @@ body {
   color: #1f2937;
 }
 
+.head1 {
+  background: white;
+}
+
 header {
   padding: 20px 40px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 45px;
 }
 
 header h1 {
@@ -24,9 +28,11 @@ header h1 {
 }
 
 nav {
-  display: flex;
+  display: grid;
   align-items: center;
   gap: 24px;
+  justify-content: space-between;
+  grid-template-columns: 7fr 1fr;
 }
 
 nav input {
@@ -41,7 +47,7 @@ nav input {
 main {
   max-width: 1200px;
   margin: 30px auto;
-  padding: 0 20px;
+  /*padding: 0 20px;*/
 }
 
 section section {
@@ -146,10 +152,6 @@ footer {
   gap: 30px;
 }
 
-#footer-end {
-  margin-left: 21rem;
-  margin-right: 21rem;
-}
 
 footer h4 {
   color: #3563e9;
@@ -317,7 +319,7 @@ main > section:first-of-type button {
 }
 
 main > section:first-of-type img {
-  position: absolute;
+  /*position: absolute;*/
   right: 20px;
   bottom: 10px;
   width: 220px;
@@ -330,6 +332,14 @@ main > section:first-of-type img {
 
   nav input {
     width: 180px;
+  }
+
+  #car2 {
+    display: none;
+  }
+
+  .menu {
+    display: none;
   }
 
   footer {
