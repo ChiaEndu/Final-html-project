@@ -47,7 +47,6 @@ nav input {
 main {
   max-width: 1200px;
   margin: 30px auto;
-  /*padding: 0 20px;*/
 }
 
 section section {
@@ -151,7 +150,6 @@ footer {
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
 }
-
 
 footer h4 {
   color: #3563e9;
@@ -319,7 +317,6 @@ main > section:first-of-type button {
 }
 
 main > section:first-of-type img {
-  /*position: absolute;*/
   right: 20px;
   bottom: 10px;
   width: 220px;
