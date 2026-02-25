@@ -288,11 +288,11 @@ main > section:first-of-type article {
 }
 
 main > section:first-of-type article:first-child {
-  background: rgba(84, 166, 255, 1);
+  background: #54a6ff;
 }
 
 main > section:first-of-type article:last-child {
-  background: rgba(53, 99, 233, 1);
+  background: #3563e9ff;
 }
 
 main > section:first-of-type h2 {
@@ -317,15 +317,6 @@ main > section:first-of-type button {
   cursor: pointer;
 }
 
-main > section:first-of-type button {
-  background-color: #3563e9;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 10px;
-  font-weight: 600;
-  cursor: pointer;
-}
 
 main > section:first-of-type img {
   right: 20px;
