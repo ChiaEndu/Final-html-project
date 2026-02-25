@@ -173,7 +173,6 @@ footer ul li {
 
 footer > p {
   text-align: center;
-  margin-top: px;
   font-size: 14px;
   color: #6b7280;
 }
@@ -209,8 +208,9 @@ article > img {
 }
 
 article footer {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
   align-items: center;
 }
 
@@ -237,7 +237,8 @@ article footer button {
   background: #3563e9;
   color: #fff;
   border: none;
-  padding: 10px 16px;
+  display: flex;
+  padding: 8px;
   border-radius: 10px;
   font-weight: 600;
   cursor: pointer;
@@ -287,11 +288,11 @@ main > section:first-of-type article {
 }
 
 main > section:first-of-type article:first-child {
-  background: linear-gradient(135deg, #3563e9, #1a3fd3);
+  background: rgba(84, 166, 255, 1);
 }
 
 main > section:first-of-type article:last-child {
-  background: linear-gradient(135deg, #54a6ff, #3563e9);
+  background: rgba(53, 99, 233, 1);
 }
 
 main > section:first-of-type h2 {
@@ -304,6 +305,16 @@ main > section:first-of-type p {
   max-width: 260px;
   margin-bottom: 20px;
   color: #f6f7fb;
+}
+
+main > section:first-of-type button {
+  background-color: #3563e9;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
 }
 
 main > section:first-of-type button {
