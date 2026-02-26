@@ -61,7 +61,7 @@ section section {
   align-items: center;
   justify-content: center;
   gap: 30px;
-  padding: 30px;
+  padding: 20px;
   background: #f2f2f2;
   flex-wrap: wrap;
 }
@@ -329,7 +329,11 @@ main > section:first-of-type img {
   }
 
   nav input {
-    width: 180px;
+    width: 100%;
+  }
+
+  .booking-bar {
+    width: 100%;
   }
 
   #car2 {
